@@ -4,13 +4,13 @@ A collection of snakemake pipelines
 
 Need a workflow for identifying potential modification sites using the RNaseL WT and KO data, as well as our current franken-IVT.
 
-Sequence
+Step 0: Sequence (MinKNOW)
 
-Step 1: basecalling
+Step 1: basecalling (Guppy)
 
-Step 2: QC
+Step 2: QC (pycoQC)
 
-Step 3: graphmap sensitive alignment
+Step 3: alignment (graphmap sensitive)
 
 Step 4: csv generation
 
